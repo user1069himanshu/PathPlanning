@@ -4,7 +4,7 @@ from queue import PriorityQueue
 from PIL import Image
 
 # Open the image and convert it to grayscale
-image = Image.open('/Users/bhaveshjain/Downloads/Complex Maze.png').convert('L')
+image = Image.open('/Users/himanshu/Downloads/Complex Maze.png').convert('L')
 
 # Resize the image to 100x100 pixels
 resized_image = image.resize((150, 150))
